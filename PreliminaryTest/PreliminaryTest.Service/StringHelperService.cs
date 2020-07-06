@@ -18,7 +18,7 @@ namespace PreliminaryTest.Service
         /// <param name="tuples">Char pairs to replace in current string builder</param>
         public void ReplaceCharacters(StringBuilder stringBuilder, params Tuple<string, string>[] tuples)
         {
-            ReplaceCharacters(stringBuilder, tuples.ToArray());
+            ReplaceCharacters(stringBuilder, tuples.ToList());
         }
 
         /// <summary>

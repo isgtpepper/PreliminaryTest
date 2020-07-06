@@ -1,11 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using PreliminaryTest.Service;
 using PreliminaryTest.Service.Interface;
 using System;
 
-namespace PreliminaryTest
+namespace PreliminaryTest.Service
 {
-    static class ServiceProviderManager
+    public static class ServiceProviderManager
     {
         private static IServiceProvider _serviceProvider;
 

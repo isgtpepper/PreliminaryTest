@@ -90,7 +90,5 @@ namespace PreliminaryTest.Service
 
             return stringBuilder.ToString();
         }
-
-        
     }
 }
